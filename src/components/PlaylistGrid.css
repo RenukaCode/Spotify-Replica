@@ -1,0 +1,36 @@
+.playlist-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.playlist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 24px;
+}
+
+.playlist-card {
+  background: #181818;
+  padding: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.playlist-card:hover {
+  background: #282828;
+}
+
+.playlist-card img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+}
+
+.playlist-card h3 {
+  font-size: 16px;
+  margin-bottom: 4px;
+}

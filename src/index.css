@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #121212; /* Spotify dark gray */
+  color: #ffffff;
+  height: 100vh;
+  overflow: hidden; /* Prevents whole page scroll */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
